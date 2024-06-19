@@ -1,4 +1,4 @@
-package run.halo.starter;
+package com.wapfox.starter;
 
 import org.springframework.stereotype.Component;
 import run.halo.app.plugin.BasePlugin;

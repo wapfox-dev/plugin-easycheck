@@ -5,7 +5,7 @@ plugins {
     id "run.halo.plugin.devtools" version "0.0.9"
 }
 
-group 'run.halo.starter'
+group 'com.wapfox.starter'
 sourceCompatibility = JavaVersion.VERSION_17
 
 repositories {
@@ -52,5 +52,12 @@ build {
 }
 
 halo {
-    version = '2.11'
+    version = '2.16'
+    superAdminUsername = 'admin'
+    superAdminPassword = 'admin'
+    externalUrl = 'http://localhost:8090'
+    port = 8090
+    debug = true
+    debugPort = 5005
+    suspend = true
 }
